@@ -94,20 +94,6 @@ public class HatCommands implements CommandExecutor {
 
         Material material = Material.matchMaterial(data[0]);
 
-//        String[] data = args[0].split(":");
-//
-//        if (data.length == 0) {
-//            player.sendMessage(Hat.PREFIX + "Not a valid material.");
-//            return true;
-//        }
-//
-//        Material material = Material.matchMaterial(data[0]);
-//
-//        if (material == null) {
-//            player.sendMessage(Hat.PREFIX + "Not a valid material.");
-//            return true;
-//        }
-
         ItemStack item;
 
         if (data.length > 1) {
