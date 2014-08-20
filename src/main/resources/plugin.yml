@@ -1,0 +1,14 @@
+name: Hat
+main: com.rylinaux.hat.Hat
+version: 1.0.0
+author: rylinaux
+
+commands:
+  hat:
+    description: Give the user a hat.
+    usage: /hat <id|name>
+
+permissions:
+  hat.use:
+    description: Allow players to use the hat command.
+    default: OP
